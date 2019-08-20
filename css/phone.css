@@ -1,0 +1,279 @@
+.icon {
+    width: 25px;
+    height: 25px;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    /* padding: 5px; */
+    text-decoration: none;
+    color: #111;
+}
+
+a:hover {
+    color: #333;
+}
+
+.highlight {
+    color: #FF5700;
+    border-radius: 5px;
+    /* background: #efefef; */
+}
+
+body {
+    color: #333;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino;
+    font-size: 1em;
+    background: rgb(195, 188, 178);
+}
+
+.layout {
+    background: #fff;
+    width: 100vw;
+}
+
+/* header */
+header {
+    background: url(https://s2.ax1x.com/2019/08/11/eXoLFS.png) rgb(244, 244, 244);
+    /* width: 100%; */
+    text-align: center;
+    padding: 25px 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .resume-link {
+    display: none;
+}
+
+header .avatar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 6px solid transparent; 
+    box-shadow: 0 0 0 2px #fff ;
+}
+
+header .title {
+    margin-left: 30px;
+}
+
+header .title >h1 {
+    color: rgb(43, 47, 50);
+    margin-bottom: 10px;
+}
+
+header .title >p {
+    color: #333;
+    font-size: 18px;
+}
+
+.tiao{
+    flex: 1;
+    height: 4px;
+    background: #eee;
+}
+.tiao i{
+    display: block;
+    width: 20px;
+    height: 4px;
+    background-color: rgb(19, 193, 245);
+    width: 16% !important;
+}
+
+/* aside */
+aside {
+    background: #FFF;
+    width: 100%;
+    position: relative;
+    /* padding-top: 60px; */
+}
+
+aside .avader {
+    position: absolute;
+    top: -21%;
+    left: 7%;
+    
+    /*text-align: center;
+    width: 100%;
+    padding-top: 5px; */
+}
+
+aside .avader>img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /* background: cornflowerblue; */
+    border: 6px solid transparent;
+    box-shadow: 0 0 0 2px rgb(230, 230, 230);
+}
+
+aside section {
+    margin: 20px;
+    padding-bottom: 15px;
+}
+
+section h2 {
+    padding-bottom: 10px;
+    color: rgb(43, 47, 50);
+}
+
+section .item {
+    font-size: 14px;
+    color: #666;
+    padding: 10px 0 0 0;
+}
+
+.personal .item span:first-child {
+    width: 80px;
+    display: inline-block;
+}
+
+.personal .item span:last-child::before {
+    content: '：';
+    padding-right: 18px;
+}
+
+.personal .item a {
+    padding-top: 8px;
+    text-decoration: underline;
+}
+
+
+.skills .item {
+    padding-top: 8px;
+}
+
+.skills .item .keyword {
+    padding-bottom: 5px;
+}
+
+.skills .item .rule {
+    height: 6px;
+    background: #eee;
+}
+
+.skills .item i {
+    display: block;
+    width: 20px;
+    height: 6px;
+    background-color: rgb(23, 193, 242);
+}
+
+.contact .item {
+    display: flex;
+    align-items: center;
+    padding: 2.5px 0;
+}
+
+.contact .item span {
+    padding-left: 10px;
+}
+
+.more .item {
+    display: flex;
+    align-items: center;
+    padding: 3px 0;
+    font-size: 16px;
+}
+
+.more .item .icon {
+    width: 32px;
+    height: 32px;
+}
+
+.more .item .link a {
+    padding: 5px;
+}
+
+.download-button {
+    text-align: center;
+    /* margin-left: 40px; */
+    border: 1px solid #cbcbd3;
+    padding: 10px 1em;
+    color: #666;
+    border-radius: 5px;
+}
+
+/* main */
+main {
+    background: #fff;
+    min-height: calc(100vh - 172px);
+}
+
+main section {
+    margin: 20px;
+    padding-bottom: 15px;
+}
+
+main .line {
+    display: none;
+}
+
+main section p {
+    padding-bottom: 3px;
+}
+
+main section .item h3 {
+    color: #333;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+main section .item img {
+    margin-top: 5px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ddd;
+    border-style: dashed;
+    border-radius: 5px;
+}
+
+main section .item ul {
+    padding-top: 10px;
+    /* padding-left: 10px; */
+    list-style: none;
+}
+
+main section .imgs {
+    display: flex;
+    justify-content: space-between;
+}
+
+main section .imgs img {
+    width: 30%;
+    height: 30%;
+    border: 1px solid #cbcbd3;
+}
+
+main section a {
+    color: #666666;
+    font-style: italic;
+    text-decoration: underline;
+    word-wrap: break-word;
+}
+
+
+footer {
+    text-align: center;
+    width: 100%;
+    font-weight: bolder;
+    font-size: 18px;
+    color: #fdfdfd;
+    background: #2b3033;
+    height: 30px;
+    line-height: 30px;
+}
+footer a {
+    color: #aaaaaa;
+}
